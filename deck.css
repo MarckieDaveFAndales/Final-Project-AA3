@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+h1 {
+    color: #4facfe;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #536872;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#options button:hover {
+    background-color: #708090;
+}
+
+#options button.correct {
+    background-color: #4caf50;
+    color: white;
+}
+
+#options button.wrong {
+    background-color: #f44336;
+    color: white;
+}
+
+#prev-btn, #next-btn, #submit-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#prev-btn:hover, #next-btn:hover, #submit-btn:hover {
+    background-color: #303f9f;
+}
+
+#prev-btn:disabled, #next-btn:disabled {
+    background-color: gray;
+}
+
+#result {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffeb3b;
+}
